@@ -1,0 +1,17 @@
+#include<stdio.h>
+struct book
+{
+	char name[50];//名字
+	short jiage;//价钱55金币
+	char chubanshe[50];//出版社：天际省冬堡学院出版社
+};
+main()
+{
+	struct book  book1 = { "元气满满的亚龙人女仆",23,"天际省冬堡学院出版社" };
+	struct book* pb = &book1;
+	printf("%s\n", pb->name);
+	//printf("书名：%s\n", book1.name);
+	//printf("价钱：%d金币\n", book1.jiage);
+	//printf("出版社：%s荣誉出品\n", book1.chubanshe);
+	return 0;
+}
