@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+
+	char arr1[] = {'a', 'b', 'c',0};
+	char arr2[] = { 'a','b','c' };
+	printf("%s\n%s\n",arr1,arr2);
+	return 0;
+}
