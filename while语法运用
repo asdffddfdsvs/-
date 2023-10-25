@@ -1,0 +1,15 @@
+	int line = 0;
+	while (line<2000)
+	{
+		printf("火球术%d\n",line);
+		line++;
+		
+
+	}
+	if (line >= 2000);
+	{
+		printf("毁灭法术大师级\n");
+
+	};
+	return 0;
+}
