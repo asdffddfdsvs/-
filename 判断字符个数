@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+
+{
+	int count = 0;
+	printf("请输入英文字符");
+	while (getchar() != '\n')
+	{
+		count = count + 1;
+	}
+	printf("%d\n",count);
+	return 0;
+}
