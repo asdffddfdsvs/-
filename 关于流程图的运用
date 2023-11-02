@@ -1,0 +1,32 @@
+我数学能力不好，对于涉及到逻辑的程序的时需要流程图来辅助理清。
+只要有了流程图敲代码对我来说不是难事，
+就像一个工程师得到了设计图，
+剩下的只有熟悉工具。
+
+
+
+
+#include<stdio.h>
+
+main()
+{
+    int i;
+    int sum = 0;
+     _Bool flag = 1;
+    printf("请输入一个大于2的数字",sum);
+    scanf_s("%d", &sum);
+    for ( i= 2 ;i<sum/2; i++)
+    {
+        if (sum % i == 0)
+        {
+            flag = 0;
+            printf("不是素数");
+        }
+       
+    }
+     if (flag)
+        {
+            printf("素数");
+        }
+    return 0;
+}
